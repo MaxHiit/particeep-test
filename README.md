@@ -19,9 +19,9 @@ A mini react application that allows you to list a list of movies with some inte
 
 Take initiative, there are bonus points if
 
-    - It is pretty
-    - You use REDUX correctly
-    - There is an attention to details
+- Make is pretty
+- Use REDUX correctly
+- There is an attention to details
 
 /!\ Deleting the asynchronous behavior in movies.js will cause the test to be cancelled.
 
