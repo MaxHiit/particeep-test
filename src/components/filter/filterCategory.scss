@@ -1,0 +1,23 @@
+@use '../../styles/variables';
+
+.filter-container {
+	display: flex;
+
+	.filter-btn {
+		margin: 0 1rem;
+
+		.filter__icon {
+			padding-right: 0.5rem;
+			visibility: hidden;
+		}
+
+		.filter__icon--visible {
+			visibility: visible;
+		}
+	}
+
+	.filter-btn--selected {
+		background: variables.$blueColor;
+		color: variables.$whiteColor;
+	}
+}
